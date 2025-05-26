@@ -1,0 +1,92 @@
+/* Estilo para el fondo y la fuente de toda la página */
+body {
+    background-image: url(img/fondo.jpg);
+    font-family: Arial; /* Fuente general */
+}
+
+/* Estilo para el título (h1) */
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+h2 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+h3 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Estilo para el párrafo (p) */
+p {
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: justify;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 30px;
+    background-color: rgba(54, 54, 150, 0.534);
+}
+
+/* Imagen centrada con borde */
+img {
+    display: block;
+    margin: auto;
+    border: 10px solid rgb(10, 32, 106);
+    border-radius: 9px;
+}
+
+/* Clase personalizada */
+.clase1 {
+    color: red;
+}
+
+/* Negrita personalizada */
+strong {
+    color: black;
+}
+
+/* ===== NUEVO: Estilo para la barra de navegación ===== */
+nav {
+
+    background-color: rgb(30, 30, 232);
+    padding: 20px;
+    margin: 0px;
+}
+
+nav ul {
+
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+nav a {
+
+    display: block;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.7s ease;
+}
+
+nav a:hover {
+    background-color: #a5c9ee;
+}
+
+
+   
+   
